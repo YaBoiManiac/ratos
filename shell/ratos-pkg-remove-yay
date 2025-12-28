@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for pkg in "$@"; do
+    if yay -Q "$pkg" &>/dev/null; then
+        yay -Rns --noconfirm "$pkg"
+    fi
+done

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+APP_ID="org.ratos.$(basename $1)"
+LAUNCH_COMMAND="ratos-launch-tui $@"
+
+exec ratos-launch-or-focus "$APP_ID" "$LAUNCH_COMMAND"

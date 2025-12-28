@@ -1,0 +1,47 @@
+
+# base os
+hyprland
+hyprland-guiutils
+hyprland-preview-share-picker
+hyprlock
+hyprpicker
+hyprsunset
+qt5-wayland
+
+# programs
+alacritty           # terminal emulator
+bluetui             # bluetooth control
+btop                # system monitor
+gnome-calculator    # calculator
+localsend           # local file share
+fastfetch           # system info
+obs-studio          # screen and program recording
+gnome-disk-utility  # disk viewing
+starship            # termainl customization
+swaybg              # background manager
+swayosd             # on screen actions
+mako                # notifications
+yazi                # file system
+nvim                # editor
+unzip               # unzipper
+waybar              # top bar on os
+wayfreeze           # used for screenshotting stills of screen
+vlc                 # video player
+
+# fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+ttf-cascadia-mono-nerd
+ttf-ia-writer
+ttf-jetbrains-mono-nerd
+
+# XDG utils
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+xdg-terminal-exec
+
+# Laptop
+power-profiles-daemon
+
